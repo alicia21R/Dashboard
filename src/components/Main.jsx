@@ -53,12 +53,15 @@ class Main extends Component {
       <div className="container-main">
         <div className="icon" onClick = {this.EntryAppear} >
         <FaUser style={fontStyles}  /> 
+        <h3>User 1</h3>
         </div>
         <div className="icon">
         <FaUser style={fontStyles}  /> 
+        <h3>User 2</h3>
         </div>
         <div className="icon">
         <FaUser style={fontStyles}  /> 
+        <h3>User 3</h3>
         </div>
       </div>
       { this.state.appear === true&& (

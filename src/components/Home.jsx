@@ -15,6 +15,7 @@ class Home extends Component {
     return (
      
       <div className="container">
+        <h1> Welcome to your Program</h1>
           <div className="icon">
             <FaUser style={fontStyles}  /> 
           </div>
